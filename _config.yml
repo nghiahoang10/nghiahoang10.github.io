@@ -1,0 +1,12 @@
+title: Nghia Hoang
+email: hoangnghia1092002@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Purdue CS '24
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  nghiahoang10
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
