@@ -4,9 +4,6 @@
 
 layout: Home
 title: Home
-header_pages:
-  - index.md
-  - projects.md
 ---
 
 ## About
