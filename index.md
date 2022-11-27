@@ -8,4 +8,4 @@ title: Home
 
 # About
 # Blog
-[blog1](https://nghiahoang10.github.io/blos/blog1)
+[blog1](https://nghiahoang10.github.io/blog1/)
