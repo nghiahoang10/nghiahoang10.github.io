@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Projects
 permalink: /blog1/
 ---
 
