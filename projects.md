@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Projects
+title: Home
 permalink: /Projects/
 ---
