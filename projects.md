@@ -4,6 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 ## Project 1
-### [project1](www.google.com)
+### [project1](projects/project1)
 ## Project 2
-### [project1](www.google.com)
+### [project1](projects/project1)
