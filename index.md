@@ -6,6 +6,6 @@ layout: default
 title: Home
 ---
 
-# About
-# Blog
+## About
+## Blog
 [blog1](https://nghiahoang10.github.io/blog1/)
