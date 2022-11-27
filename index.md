@@ -5,3 +5,4 @@
 layout: home
 title: Home
 ---
+I'm interested in systems, algorithms, and soccer. I'm a computer science undergrad at Purdue University. 
