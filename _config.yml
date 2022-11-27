@@ -24,9 +24,6 @@ github_username:  nghiahoang10
 # Build settings
 markdown: kramdown
 theme: minima
-header_pages:
-  - index.md
-  - projects.md
 plugins:
   - jekyll-include-cache
 
