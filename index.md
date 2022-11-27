@@ -5,8 +5,3 @@
 layout: home
 title: Home
 ---
-
-<!--
-## About
-## Blog
-[blog1](https://nghiahoang10.github.io/blog1/) -->
