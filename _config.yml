@@ -23,8 +23,8 @@ github_username:  nghiahoang10
 
 # Build settings
 markdown: kramdown
-#theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: minimal-mistakes-jekyll
+#remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
 
