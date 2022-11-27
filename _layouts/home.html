@@ -4,8 +4,6 @@ layout: default
 
 <div class="home">
 
-  {{ content }}
-
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -54,5 +52,8 @@ layout: default
     {%- endif %}
     <h2 class="post-list-heading">About</h2>
     <p>{{ content }}</p>
-
+    <ul>
+        <li><a href="assets/NghiaHoang_resume.pdf">My Resume</a></li>
+        <li><a href="https://www.nghiahoang10.github.io/projects">My Projects</a></li>
+    </ul>
 </div>

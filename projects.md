@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /Projects/
+permalink: /projects/
 ---
 ## Project 1
 ### [project1](www.google.com)
