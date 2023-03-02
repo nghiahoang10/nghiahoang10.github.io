@@ -4,4 +4,4 @@ title: Projects
 permalink: /projects/
 ---
 ## Java Subset Compiler
-### [JavaCompiler](Read more)
+### [Read more](JavaCompiler)
