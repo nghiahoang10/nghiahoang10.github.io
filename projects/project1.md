@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project 1
-permalink: /projects/project1
+title: Java Subset Compiler
+permalink: /projects/JavaCompiler
 ---
 ## Java Subset Compiler
