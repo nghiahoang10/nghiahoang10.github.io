@@ -1,0 +1,158 @@
+[
+    {
+        "pair": "WETH-GND",
+        "apr": "145.06"
+    },
+    {
+        "pair": "gmUSD-gDAI",
+        "apr": "13.67"
+    },
+    {
+        "pair": "gmdUSDC-gmUSD",
+        "apr": "14.96"
+    },
+    {
+        "pair": "GMD-WETH",
+        "apr": "64.72"
+    },
+    {
+        "pair": "WETH-GMX",
+        "apr": "23.44"
+    },
+    {
+        "pair": "GNS-WETH",
+        "apr": "0.00"
+    },
+    {
+        "pair": "USDT-USDC",
+        "apr": "12.16"
+    },
+    {
+        "pair": "WBTC-WETH",
+        "apr": "0.00"
+    },
+    {
+        "pair": "VELA-WETH",
+        "apr": "0.00"
+    },
+    {
+        "pair": "USDT-USDC(new)",
+        "apr": "0.00"
+    },
+    {
+        "pair": "gDAI-DAI",
+        "apr": "16.73"
+    },
+    {
+        "pair": "WETH-ARB",
+        "apr": "0.00"
+    },
+    {
+        "pair": "ARB-USDC",
+        "apr": "18.70"
+    },
+    {
+        "pair": "MAGIC-WETH",
+        "apr": "0.00"
+    },
+    {
+        "pair": "PENDLE-WETH",
+        "apr": "0.00"
+    },
+    {
+        "pair": "RDNT-WETH",
+        "apr": "35.11"
+    },
+    {
+        "pair": "BFR-WETH",
+        "apr": "0.00"
+    },
+    {
+        "pair": "CHR-WETH",
+        "apr": "0.00"
+    },
+    {
+        "pair": "GND-USDC",
+        "apr": "0.00"
+    },
+    {
+        "pair": "YFX-USDC",
+        "apr": "26.02"
+    },
+    {
+        "pair": "DAI-USDC",
+        "apr": "16.17"
+    },
+    {
+        "pair": "WETH-USDC",
+        "apr": "0.00"
+    },
+    {
+        "pair": "USDT-USDC(range3)",
+        "apr": "16.59"
+    },
+    {
+        "pair": "WETH-ARB(range2)",
+        "apr": "63.46"
+    },
+    {
+        "pair": "WETH-PEPE",
+        "apr": "0.00"
+    },
+    {
+        "pair": "USD+-USDC",
+        "apr": "23.29"
+    },
+    {
+        "pair": "DAI-DAI+",
+        "apr": "16.32"
+    },
+    {
+        "pair": "WETH-LOTUS",
+        "apr": "38.44"
+    },
+    {
+        "pair": "ARB-USDC(new)",
+        "apr": "0.00"
+    },
+    {
+        "pair": "CHR-WETH(new)",
+        "apr": "217.79"
+    },
+    {
+        "pair": "GHA-USDC",
+        "apr": "0.00"
+    },
+    {
+        "pair": "DMT-WETH",
+        "apr": "0.00"
+    },
+    {
+        "pair": "GND-USDC(neW)",
+        "apr": "128.04"
+    },
+    {
+        "pair": "USDT-USDC(depeg)",
+        "apr": "14.41"
+    },
+    {
+        "pair": "DAI-USDC",
+        "apr": "0.00"
+    },
+    {
+        "pair": "WETH-GMX",
+        "apr": "0.00"
+    },
+    {
+        "pair": "zGND-GND",
+        "apr": "117.60"
+    },
+    {
+        "pair": "gETH-WETH",
+        "apr": "36.99"
+    },
+    {
+        "pair": "gETH-wstETH",
+        "apr": "0.00"
+    }
+]
