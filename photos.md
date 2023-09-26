@@ -9,7 +9,7 @@ permalink: /photos/
 ### Seattle
 <img src="../photos/2.jpg" alt="2"/>
 
-### Son Tra Penisula
+### Son Tra Peninsula
 <img src="../photos/3.jpg" alt="3"/>
 <img src="../photos/4.jpg" alt="4"/>
 <img src="../photos/5.jpg" alt="5"/>
