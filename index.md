@@ -5,4 +5,6 @@
 layout: home
 title: Home
 ---
-I'm interested in systems, algorithms, and soccer. I'm a computer science undergrad at Purdue University. 
+I'm an undergrad at Purdue University studying computer science and mathematics. My interests lie in distributed systems, algorithms, languages and blockchain.
+
+When I'm not learning technical things. I enjoy watching videos of natural landscapes and wildlife scenes. I love seas, rivers, streams, waterfalls...:\)
