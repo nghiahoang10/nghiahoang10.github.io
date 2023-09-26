@@ -1,0 +1,8 @@
+---
+layout: page
+title: Photos
+permalink: /Photos/
+---
+## Books/Blogs/Articles that I find interesting
+* [Five things you notice when you quit the news](https://www.raptitude.com/2016/12/five-things-you-notice-when-you-quit-the-news/)
+* [Dan Luu's blog](https://www.danluu.com)
