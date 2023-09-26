@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Photos
-permalink: /Photos/
+permalink: /photos/
 ---
 <img src="photos/1.jpg" alt="1"/>
 <img src="photos/2.jpg" alt="2"/>
