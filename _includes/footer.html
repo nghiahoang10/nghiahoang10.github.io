@@ -2,22 +2,22 @@
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
   
     <div class="wrapper">
-  
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-          <ul class="contact-list">
-              <li class="p-name">{{ site.title | escape }}</li>
-              <li><a class="u-email" href="mailto:{{ site.email }}">Contact Me</a></li>
-          </ul>
+        <div class="p-name">{{ site.title }}</div>    
+        <div class="footer-col-wrapper">
+            <div class="footer-col">
+            <ul class="contact-list">
+                <li><a class="u-email" href="mailto:{{ site.email }}">Contact Me</a></li>
+            </ul>
+            </div>
+            <div class="footer-col">
+            <p>{{ site.description | escape }}</p>
+            <div class="social-links">
+                {%- include social.html -%}
+            </div>
+            </div>
         </div>
-        <div class="footer-col">
-          <p>{{ site.description | escape }}</p>
-        </div>
-      </div>
   
-      <div class="social-links">
-        {%- include social.html -%}
-      </div>
+      
   
     </div>
   
