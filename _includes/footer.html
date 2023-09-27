@@ -4,16 +4,16 @@
     <div class="wrapper">
         <div class="p-name">{{ site.title }}</div>    
         <div class="footer-col-wrapper">
+            <div class="footer-col" style="width: 50%;">
+                <ul class="contact-list">
+                    <li><a class="u-email" href="mailto:{{ site.email }}">Contact Me</a></li>
+                </ul>
+                </div>
             <div class="footer-col">
-            <ul class="contact-list">
-                <li><a class="u-email" href="mailto:{{ site.email }}">Contact Me</a></li>
-            </ul>
-            </div>
-            <div class="footer-col">
-            <p>{{ site.description | escape }}</p>
-            <div class="social-links">
-                {%- include social.html -%}
-            </div>
+                <p>{{ site.description | escape }}</p>
+                <div class="social-links">
+                    {%- include social.html -%}
+                </div>
             </div>
         </div>
   
