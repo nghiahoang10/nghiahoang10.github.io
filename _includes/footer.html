@@ -5,16 +5,9 @@
   
       <div class="footer-col-wrapper">
         <div class="footer-col">
-          <p class="feed-subscribe">
-            <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-              <svg class="svg-icon orange">
-                <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-              </svg><span>Subscribe</span>
-            </a>
-          </p>
           <ul class="contact-list">
-              <li class="p-name">{{ site.name | escape }}</li>
-              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+              <li class="p-name">{{ site.title | escape }}</li>
+              <li><a class="u-email" href="mailto:{{ site.email }}">Contact Me</a></li>
           </ul>
         </div>
         <div class="footer-col">
