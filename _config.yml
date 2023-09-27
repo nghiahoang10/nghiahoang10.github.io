@@ -13,9 +13,6 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-author:
-  name: Nghia Hoang
-  email: hoangnghia1092002@gmail.com
 title: Nghia Hoang
 email: hoangnghia1092002@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
