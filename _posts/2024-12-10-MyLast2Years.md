@@ -20,6 +20,9 @@ I will aggregate some important points I learned in the last 2 years later wooho
 I haven't had any meaningful relationship/friendship since I started doing crypto things. One of the reasons is that I have been spending all my time on coding/trading stuff, reading other people's thoughts, and chatting with people I respect in crypto. My relationship with my parents is somewhat the same or maybe looser since I don't afford spending that much time with them (both financially and emotionally). This post [The Tail End](https://waitbutwhy.com/2015/12/the-tail-end.html) hit me really hard the other day AHHHHHHHHHHH. 
 
 
+I'm lucky enough to be friend/work with one of the smartest/kindest person I've met. I learned infinitely many things from that friend and probably can't express my gratefulness enough (I'm so bad at this wtf).
+
+
 I have been thinking about the breakup 2 years ago recently too. Even though the break up has almost no effect on my life/work, it still stings me a bit sometimes when I think about it. Therefore, whenever I have some free time, I usually try to find the reason myself. Last week, I fell off a motorbike while driving my American friend up the mountain which gave me even more free time. I feel like I somehow nailed the cause. I think the fastest way for someone to move on from their last intense relationship is to start another meaningful relationship as soon as they end one. However, I’m not a fan of that method and that harmed my emotions somehow. It became worse when ex partner chose that way. In my opinion, it's completely normal and I was even happy about it. The problem was with me which is that I felt depressed/unprotected from the thought of ex partner went for a revenge about the split (can be phrased as "the depression that ensues if you don’t go with that way can leave you unprotected from the sense of guilt or energy it takes you to defend yourself in case the ex partner is vindictive about the split" ehhhh).
 
 
