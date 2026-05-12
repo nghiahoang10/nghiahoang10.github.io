@@ -5,7 +5,7 @@ date:   2026-01-14 00:02:30 -0400
 categories: jekyll update
 permalink: /AlgorithmicaHPCNotes/
 ---
-## Ch2: Instruction-Level Parallelism
+## Ch3: Instruction-Level Parallelism
 
 Modern CPUs use pipelining: after an instruction passes through the first stage, they start processing the next one right away, without waiting for the previous one to fully complete.
 
@@ -58,3 +58,60 @@ for (int i = 0; i < N; i++)
 ```
 
 Read more: [stackoverflow](https://stackoverflow.com/questions/11227809/why-is-conditional-processing-of-a-sorted-array-faster-than-of-an-unsorted-array)
+
+### 3.3: Branchless Programming
+
+#### Predication:
+
+```cpp
+for (int i = 0; i < N; i++)
+    s += (a[i] < 50) * a[i];
+```
+
+~7 cycles per element instead of the original ~14.
+
+Explanation:
+If the expression `a[i] - 50` is negative (implying `a[i] < 50`), then the highest bit of the result will be set to one, which we can then extract using a right-shift.
+
+```asm
+mov  ebx, eax   ; t = x
+sub  ebx, 50    ; t -= 50
+sar  ebx, 31    ; t >>= 31
+imul  eax, ebx   ; x *= t
+```
+
+Compiler produces:
+
+```asm
+    mov     eax, 0
+    mov     ecx, -4000000
+loop:
+    mov     esi, dword ptr [rdx + a + 4000000]  ; load a[i]
+    cmp     esi, 50
+    cmovge  esi, eax                            ; esi = (esi >= 50 ? esi : eax=0)
+    add     dword ptr [rsp + 12], esi           ; s += esi
+    add     rdx, 4
+    jnz     loop                                ; "iterate while rdx is not zero"
+```
+
+Using predication eliminates a control hazard but introduces a data hazard. Cheaper pipeline stall: wait for cmov to be resolved and not flush the entire pipeline in case of a mispredict.
+
+It can be more efficient to leave branchy code as it is: the cost of computing both branches instead of just one outweighs the penalty for the potential branch mispredictions.
+
+<img src="../photos/3.3.1.svg" alt="performance graph"/>
+
+Example: branchless cpp lower_bound(int x)
+
+```cpp
+int lower_bound(int x) {
+    int *base = t, len = n;
+    while (len > 1) {
+        int half = len / 2;
+        base += (base[half - 1] < x) * half; // will be replaced with a "cmov"
+        len -= half;
+    }
+    return *base;
+}
+```
+
+on small arrays (that fit into cache) it works ~4x faster than the branchy `std::lower_bound`.
