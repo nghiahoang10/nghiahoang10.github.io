@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Algorithmica HPC Notes"
+title:  "Algorithmica HPC Notes - Chapter 3"
 date:   2026-01-14 00:02:30 -0400
 categories: jekyll update
-permalink: /AlgorithmicaHPCNotes/
+permalink: /AlgorithmicaHPCNotesCh3/
 ---
 ## Ch3: Instruction-Level Parallelism
 
@@ -115,3 +115,33 @@ int lower_bound(int x) {
 ```
 
 on small arrays (that fit into cache) it works ~4x faster than the branchy `std::lower_bound`.
+
+### 3.4 Instruction Table
+
+Provides latency and throughput numbers for an architecture
+
+### 3.5 Throughput Computing
+
+```cpp
+int s = 0;
+s += a[0];
+s += a[1];
+s += a[2];
+s += a[3];
+// ...
+```
+1 cycle each iteration to add another value to s.
+
+For example, the throughput of add is 2 on a CPU. The solution is to use two accumulators and just sum up odd and and even elements separately:
+
+```cpp
+int s0 = 0, s1 = 0;
+s0 += a[0];
+s1 += a[1];
+s0 += a[2];
+s1 += a[3];
+// ...
+int s = s0 + s1;
+```
+
+The computation no longer has any critical paths that limit the throughput.
