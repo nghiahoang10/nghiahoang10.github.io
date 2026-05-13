@@ -28,7 +28,7 @@ for (int i = 0; i < N; i++)
 ```
 ~14 CPU Cycles per element
 
-Replacing the hardcoded 50 with a tweakable parameter P that effectively sets the probability of the < branch:
+Replacing the hardcoded 50 with a parameter P that effectively sets the probability of the < branch:
 
 ```cpp
     for (int i = 0; i < N; i++)
@@ -132,7 +132,7 @@ s += a[3];
 ```
 1 cycle each iteration to add another value to s.
 
-For example, the throughput of add is 2 on a CPU. The solution is to use two accumulators and just sum up odd and and even elements separately:
+For example, the throughput of add is 2 on a CPU. The solution is to use two accumulators and just sum up odd and even elements separately:
 
 ```cpp
 int s0 = 0, s1 = 0;
