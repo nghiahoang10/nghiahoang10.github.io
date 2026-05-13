@@ -116,11 +116,11 @@ int lower_bound(int x) {
 
 on small arrays (that fit into cache) it works ~4x faster than the branchy `std::lower_bound`.
 
-### 3.4 Instruction Table
+### 3.4: Instruction Table
 
 Provides latency and throughput numbers for an architecture
 
-### 3.5 Throughput Computing
+### 3.5: Throughput Computing
 
 ```cpp
 int s = 0;

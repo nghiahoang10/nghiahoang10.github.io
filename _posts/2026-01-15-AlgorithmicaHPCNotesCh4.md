@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Algorithmica HPC Notes - Chapter 4"
-date:   2026-01-14 00:02:30 -0400
+date:   2026-01-15 00:02:30 -0400
 categories: jekyll update
 permalink: /AlgorithmicaHPCNotesCh4/
 ---
@@ -18,9 +18,9 @@ Most of the time compilers are capable of producing near-optimal code. When they
 3. Assembly turns assembly language into machine code, except that any external function calls like printf are substituted with placeholders: `gcc -c file.c` (emits an .o file, called object file)
 4. Linking finally resolves the function calls by plugging in their actual addresses, and produces an executable binary: `gcc -o binary file.c`
 
-### 4.2 Flags and Targets
+### 4.2: Flags and Targets
 
-### 4.3 Situational Optimizations
+### 4.3: Situational Optimizations
 
 Unroll loops whose number of iterations can be determined at compile time or upon entry to the loop:
 ```cpp
@@ -47,9 +47,9 @@ int factorial(int n) {
 }
 ```
 
-### 4.4 Contract Programming
+### 4.4: Contract Programming
 
-### 4.5 Precomputation
+### 4.5: Precomputation
 
 Compute value of variable during compile time and turn it into a constant by embedding it into the generated machine code.
 
@@ -65,4 +65,5 @@ constexpr int fibonacci(int n) {
     }
     return b;
 }
+static_assert(fibonacci(10) == 55);
 ```
