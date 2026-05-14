@@ -105,3 +105,69 @@ Dr         D1mr      DLmr Bc         Bcm
          .         .    .          .         .      return l;
          .         .    .          .         .  }
 ```
+
+### 5.4: Machine Code Analyzers
+
+Using llvm-mca
+
+Example:
+
+```asm
+loop:
+    addl (%rax), %edx
+    addq $4, %rax
+    cmpq %rcx, %rax
+    jne	 loop
+```
+
+Analysis with `llvm-mca` for the Skylake microarchitecture:
+```
+Iterations:        100
+Instructions:      400
+Total Cycles:      108
+Total uOps:        500
+
+Dispatch Width:    6
+uOps Per Cycle:    4.63
+IPC:               3.70
+Block RThroughput: 0.8
+```
+
+### 5.5: Benchmarking
+
+C++: have 1 header file gcd.hh and implement in v1.cc, v2.cc, ...
+
+Can use Jupyter Notebooks for scripts and plots
+
+### 5.6: Getting Accurate Results
+
+Sources of bias in benchmark:
+
+1. Differing datasets:
+
+A good benchmark should be application-specific, and use the dataset that is as representing of your real use case as possible.
+
+2. Multiple objectives:
+
+3. Cold cache:
+
+This is solved by making a warm-up run before starting measurements:
+```cpp
+// warm-up run
+
+volatile checksum = 0;
+
+for (int i = 0; i < N; i++)
+    checksum ^= lower_bound(q[i]);
+
+
+// actual run
+
+clock_t start = clock();
+checksum = 0;
+
+for (int i = 0; i < N; i++)
+    checksum ^= lower_bound(q[i]);
+```
+
+4. Over-optimization: compiler just optimized the benchmarked code away.
