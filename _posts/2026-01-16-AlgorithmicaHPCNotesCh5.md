@@ -143,13 +143,13 @@ Can use Jupyter Notebooks for scripts and plots
 
 Sources of bias in benchmark:
 
-1. Differing datasets:
+1 Differing datasets:
 
 A good benchmark should be application-specific, and use the dataset that is as representing of your real use case as possible.
 
-2. Multiple objectives:
+2 Multiple objectives:
 
-3. Cold cache:
+3 Cold cache:
 
 This is solved by making a warm-up run before starting measurements:
 ```cpp
@@ -170,4 +170,4 @@ for (int i = 0; i < N; i++)
     checksum ^= lower_bound(q[i]);
 ```
 
-4. Over-optimization: compiler just optimized the benchmarked code away.
+4 Over-optimization: compiler just optimized the benchmarked code away.
